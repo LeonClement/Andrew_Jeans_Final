@@ -1,0 +1,127 @@
+﻿@charset "UTF-8";
+/*
+   Name: Andrew Jeans    
+   Filename: index_styles.css
+
+*/
+
+/* font-family: 'Source Code Pro', monospace */
+
+/* Structural Styles */
+
+html{
+   background-color: rgb(173, 227, 222);
+   
+}
+body{
+   background-color: rgb(243, 223, 134);
+   font-family: 'Source Code Pro', monospace;
+}
+body footer address{
+
+   background-color:  rgb(208, 184, 109);
+   top: 1px;
+   bottom: 5px;
+}
+
+address{
+   font-weight: normal;
+   font-size: 0.9em;
+   text-align: center;
+   top: 10px;
+   bottom: 10px;
+}
+
+/* Heading Styles */
+
+html h1, h2{
+font-weight: normal;
+
+}
+header img{
+   border-radius: 20px;
+   height: 480.25‬px;
+   width: 1%;
+}
+
+
+/* Navigation Styles */
+
+nav ul{
+list-style-type: none;
+line-height: 2em;
+font-size: 0.9em;
+
+}
+/* Psuedo 1-4 */
+
+nav a:link{
+   text-decoration: none;
+color:  rgb(82, 53, 9);
+}
+nav a:visited{
+   text-decoration: none;
+color:  rgb(82, 53, 9);
+}
+nav a:hover{
+   color: rgb(255, 251, 248);
+}
+nav a:active{
+   color: rgb(255, 251, 248);
+}
+
+/* Article Styles */
+
+/* Psuedo classes 5-6 */
+article>header:first-child{
+
+   color: rgb(255, 136, 0);
+}
+
+article>p:first-of-type{
+
+   color: #b68a08;
+}
+article>p:nth-of-type(2){
+color: hsl(36, 90%, 15%);
+}
+article img{
+   border-radius:30px;
+   margin-left: 25%;
+   float: center;
+   width:50%;
+}
+/* Aside Styles */
+
+aside#index_image{
+   margin-top: 20px;
+   margin-left:25%;
+   float: top;
+   width:50%;
+}
+aside#index_image img{
+   width: 100%;
+}
+
+/* Blockquote Styles */
+
+
+blockquote{
+   background-color: rgb(173, 189, 227);
+   color:  rgba(255, 255, 255,.65);
+}
+blockquote p{
+   top:2.5px;
+   bottom: 2.5px;
+   left: 10px;
+   right: 10px;
+}
+
+/* Footer Style */
+footer address{
+color: rgba(255, 255, 255, .5);
+
+}
+
+
+
